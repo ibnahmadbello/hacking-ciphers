@@ -1,11 +1,11 @@
 # This is the script to be encrypted/decrypted
-message = "This is my secret message."
+message = input("Enter the message you want to encrypt/decrypt:\n")
 
 # Encryption/Decryption key
-key = 13
+key = int(input("Enter the key to use for encrypting/decrypting:\n"))
 
 # tells the program to encrypt or decrypt
-mode = 'encrypt'
+mode = input("Choose your mode: 'encrypt' or 'decrypt'\n")
 
 # Every possible symbols that can be encrypted
 LETTERS = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefgh' \
