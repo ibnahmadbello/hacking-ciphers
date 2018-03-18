@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" afterPath="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="frankenstein.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TranspositionCipher/frankenstein.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="3314" column="59" lean-forward="true" selection-start-line="3314" selection-start-column="59" selection-end-line="3314" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/TranspositionCipher/genericTranspositionDecrypt.py" />
         <option value="$PROJECT_DIR$/TestingProgram/transpositionTest.py" />
         <option value="$PROJECT_DIR$/TranspositionCipher/transpositionEncrypt.py" />
+        <option value="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" />
       </list>
     </option>
   </component>
@@ -427,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521377361471</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="frankenstein.txt">
+      <created>1521380625982</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1521380625982</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -502,7 +510,8 @@
     <MESSAGE value="genericTranspositionDecrypt.py" />
     <MESSAGE value="Testing Program" />
     <MESSAGE value="transpositionTest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="transpositionTest.py" />
+    <MESSAGE value="frankenstein.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="frankenstein.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -747,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TranspositionCipher/frankenstein.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="3314" column="59" lean-forward="true" selection-start-line="3314" selection-start-column="59" selection-end-line="3314" selection-end-column="59" />
           <folding />
         </state>
       </provider>
