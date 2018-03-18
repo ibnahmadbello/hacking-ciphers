@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" afterPath="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frankenstein.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="frankenstein.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TranspositionCipher/frankenstein.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="3314" column="59" lean-forward="true" selection-start-line="3314" selection-start-column="59" selection-end-line="3314" selection-end-column="59" />
+            <state relative-caret-position="353">
+              <caret line="3357" column="59" lean-forward="true" selection-start-line="3357" selection-start-column="59" selection-end-line="3357" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transpositionFileCipher.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -84,6 +94,7 @@
         <option value="$PROJECT_DIR$/TestingProgram/transpositionTest.py" />
         <option value="$PROJECT_DIR$/TranspositionCipher/transpositionEncrypt.py" />
         <option value="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" />
+        <option value="$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py" />
       </list>
     </option>
   </component>
@@ -435,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521380625982</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="frankenstein.txt">
+      <created>1521380965266</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1521380965266</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -756,8 +774,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TranspositionCipher/frankenstein.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="3314" column="59" lean-forward="true" selection-start-line="3314" selection-start-column="59" selection-end-line="3314" selection-end-column="59" />
+        <state relative-caret-position="353">
+          <caret line="3357" column="59" lean-forward="true" selection-start-line="3357" selection-start-column="59" selection-end-line="3357" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
