@@ -21,7 +21,7 @@ def main():
         # Check for all possible keys for each message.
         for key in range(1, len(message)):
             encrypted = TranspositionCipher.transpositionEncrypt.encryptMessage(key, message)
-            decrypted = TranspositionCipher.transpositionDecrypt.decryptMessage(key, message)
+            decrypted = TranspositionCipher.transpositionDecrypt.decryptMessage(key, encrypted)
 
             # If the decryption doesn't match the original message, display
             # an error message and quit
