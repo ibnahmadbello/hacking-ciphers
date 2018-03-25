@@ -36,6 +36,7 @@ def main():
     elif myKey == 'decrypt':
         translated = TranspositionCipher.transpositionDecrypt.decryptMessage(myKey, content)
     totalTime = round(time.time() - startTime, 2)
+    print('%sion time: %s seconds' % (myMode.title(), totalTime))
 
     # Write out the translated message to the output file
     outputFileObj = open(outputFileName, 'w')
