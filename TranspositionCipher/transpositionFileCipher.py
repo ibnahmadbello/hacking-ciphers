@@ -10,6 +10,7 @@ def main():
     myKey = 10
     myMode = 'encrypt' # set to 'encrypt' or 'decrypt'
 
+
     # If the input file does not exist, then the program terminates early.
     if not os.path.exists(inputFileName):
         print('The file %s does not exist. Quitting...' % (inputFileName))
@@ -33,7 +34,7 @@ def main():
     startTime = time.time()
     if myMode == 'encrypt':
         translated = TranspositionCipher.transpositionEncrypt.encryptMessage(myKey, content)
-    elif myKey == 'decrypt':
+    elif myMode == 'decrypt':
         translated = TranspositionCipher.transpositionDecrypt.decryptMessage(myKey, content)
     totalTime = round(time.time() - startTime, 2)
     print('%sion time: %s seconds' % (myMode.title(), totalTime))
