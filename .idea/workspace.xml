@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DetectEnglish/detectEnglish.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DetectEnglish/dictionary.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DetectEnglish/detectEnglish.py" afterPath="$PROJECT_DIR$/DetectEnglish/detectEnglish.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,17 +24,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detectEnglish.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="detectEnglish.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="331">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dictionary.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dictionary.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DetectEnglish/dictionary.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
@@ -77,8 +76,8 @@
         <option value="$PROJECT_DIR$/TranspositionCipher/frankenstein.txt" />
         <option value="$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py" />
         <option value="$PROJECT_DIR$/TranspositionCipher/genericTranspositionFileCipher.py" />
-        <option value="$PROJECT_DIR$/DetectEnglish/detectEnglish.py" />
         <option value="$PROJECT_DIR$/DetectEnglish/dictionary.txt" />
+        <option value="$PROJECT_DIR$/DetectEnglish/detectEnglish.py" />
       </list>
     </option>
   </component>
@@ -472,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521984048028</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="dictionary file">
+      <created>1521985002626</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1521985002626</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -550,7 +556,8 @@
     <MESSAGE value="frankenstein.txt" />
     <MESSAGE value="transpositionFileCipher.py" />
     <MESSAGE value="genericTranspositionFileCipher.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="genericTranspositionFileCipher.py" />
+    <MESSAGE value="dictionary file" />
+    <option name="LAST_COMMIT_MESSAGE" value="dictionary file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -908,18 +915,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DetectEnglish/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="45332" column="6" lean-forward="false" selection-start-line="45332" selection-start-column="6" selection-end-line="45332" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>
