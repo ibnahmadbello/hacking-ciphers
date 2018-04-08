@@ -22,7 +22,7 @@ def main():
 def getKeyParts(key):
     keyA = key // len(SYMBOLS)
     keyB = key % len(SYMBOLS)
-    return keyA, keyB
+    return (keyA, keyB)
 
 
 def checkKeys(keyA, keyB, mode):
