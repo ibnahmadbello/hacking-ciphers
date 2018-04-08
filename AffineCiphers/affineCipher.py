@@ -1,8 +1,7 @@
 # Affine Cipher
 
 import sys, AffineCiphers.cryptomath, random
-SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
-`abcdefghijklmnopqrstuvwxyz{|}~"""
+SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"""
 
 
 def main():
