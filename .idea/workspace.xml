@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AffineCiphers/affineCipher.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AffineCiphers/cryptomath.py" afterPath="$PROJECT_DIR$/AffineCiphers/cryptomath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AffineCiphers/affineCipher.py" afterPath="$PROJECT_DIR$/AffineCiphers/affineCipher.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="affineCipher.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -150,7 +149,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.transpositionHacker">
+  <component name="RunManager" selected="Python.affineCipher">
+    <configuration name="affineCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AffineCiphers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hacking_ciphers" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AffineCiphers/affineCipher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="detectEnglish" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,37 +235,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="transpositionTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestingProgram" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hacking_ciphers" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestingProgram/transpositionTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.transpositionTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.transpositionFileCipher" />
-      <item index="2" class="java.lang.String" itemvalue="Python.genericTranspositionFileCipher" />
-      <item index="3" class="java.lang.String" itemvalue="Python.transpositionHacker" />
-      <item index="4" class="java.lang.String" itemvalue="Python.detectEnglish" />
+      <item index="0" class="java.lang.String" itemvalue="Python.transpositionFileCipher" />
+      <item index="1" class="java.lang.String" itemvalue="Python.genericTranspositionFileCipher" />
+      <item index="2" class="java.lang.String" itemvalue="Python.transpositionHacker" />
+      <item index="3" class="java.lang.String" itemvalue="Python.detectEnglish" />
+      <item index="4" class="java.lang.String" itemvalue="Python.affineCipher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.transpositionHacker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.detectEnglish" />
-        <item index="2" class="java.lang.String" itemvalue="Python.genericTranspositionFileCipher" />
-        <item index="3" class="java.lang.String" itemvalue="Python.transpositionFileCipher" />
-        <item index="4" class="java.lang.String" itemvalue="Python.transpositionTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.affineCipher" />
+        <item index="1" class="java.lang.String" itemvalue="Python.transpositionHacker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.detectEnglish" />
+        <item index="3" class="java.lang.String" itemvalue="Python.genericTranspositionFileCipher" />
+        <item index="4" class="java.lang.String" itemvalue="Python.transpositionFileCipher" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523202099403</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="affineCipher.py">
+      <created>1523202645378</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1523202645378</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -556,9 +562,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32362458" sideWeight="0.5060606" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32200646" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32200646" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -597,7 +603,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="caesarCipher.py" />
     <MESSAGE value="caesarCipher2.py" />
     <MESSAGE value="genericCaesarCipher.py" />
     <MESSAGE value="made everything generic by using a prompt" />
@@ -622,7 +627,8 @@
     <MESSAGE value="gcdFunction.py" />
     <MESSAGE value="deleted gcdFunction.py" />
     <MESSAGE value="cryptomath.py implemented GCD and findModInverse" />
-    <option name="LAST_COMMIT_MESSAGE" value="cryptomath.py implemented GCD and findModInverse" />
+    <MESSAGE value="affineCipher.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="affineCipher.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -980,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="161">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
