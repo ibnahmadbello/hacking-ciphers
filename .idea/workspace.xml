@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AffineCiphers/affineKeyTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,27 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cryptomath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AffineCiphers/cryptomath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="affineCipher.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="191">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="affineKeyTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="affineKeyTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AffineCiphers/affineKeyTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -44,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detectEnglish.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
+      <file leaf-file-name="affineHacker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackingAffine/affineHacker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="331">
+              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -93,6 +83,7 @@
         <option value="$PROJECT_DIR$/AffineCiphers/cryptomath.py" />
         <option value="$PROJECT_DIR$/AffineCiphers/affineCipher.py" />
         <option value="$PROJECT_DIR$/AffineCiphers/affineKeyTest.py" />
+        <option value="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
       </list>
     </option>
   </component>
@@ -126,11 +117,6 @@
             <path>
               <item name="hacking_ciphers" type="b2602c69:ProjectViewProjectNode" />
               <item name="hacking_ciphers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hacking_ciphers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hacking_ciphers" type="462c0819:PsiDirectoryNode" />
-              <item name="AffineCiphers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -575,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523206813007</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="affineKeyTest.py">
+      <created>1523207491925</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1523207491925</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -635,7 +628,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="caesarCipher2.py" />
     <MESSAGE value="genericCaesarCipher.py" />
     <MESSAGE value="made everything generic by using a prompt" />
     <MESSAGE value="New Directory: HackingCaesar" />
@@ -660,20 +652,14 @@
     <MESSAGE value="deleted gcdFunction.py" />
     <MESSAGE value="cryptomath.py implemented GCD and findModInverse" />
     <MESSAGE value="affineCipher.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="affineCipher.py" />
+    <MESSAGE value="affineKeyTest.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="affineKeyTest.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TranspositionCipher/frankenstein.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60426">
-          <caret line="3357" column="59" lean-forward="true" selection-start-line="3357" selection-start-column="59" selection-end-line="3357" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1009,18 +995,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AffineCiphers/affineKeyTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackingAffine/affineHacker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
           <folding />
         </state>
       </provider>
