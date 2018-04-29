@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
+    <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="affineKeyTest.py">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HackingAffine/dictionary.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackingAffine/affineHacker.py" afterPath="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="affineCipher.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="81" column="19" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="19" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="affineHacker.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="affineHacker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackingAffine/affineHacker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="72">
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detectEnglish.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -111,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +134,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -131,6 +142,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HackingAffine" />
       <recent name="$PROJECT_DIR$/HackingTransposition" />
     </key>
   </component>
@@ -146,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.affineKeyTest">
+  <component name="RunManager" selected="Python.affineHacker">
     <configuration name="affineCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,6 +172,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hacking_ciphers" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AffineCiphers/affineCipher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="affineHacker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackingAffine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hacking_ciphers" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,23 +227,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="genericTranspositionFileCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TranspositionCipher" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hacking_ciphers" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TranspositionCipher/genericTranspositionFileCipher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="transpositionHacker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,19 +245,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.genericTranspositionFileCipher" />
-      <item index="1" class="java.lang.String" itemvalue="Python.transpositionHacker" />
-      <item index="2" class="java.lang.String" itemvalue="Python.detectEnglish" />
-      <item index="3" class="java.lang.String" itemvalue="Python.affineCipher" />
-      <item index="4" class="java.lang.String" itemvalue="Python.affineKeyTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.transpositionHacker" />
+      <item index="1" class="java.lang.String" itemvalue="Python.detectEnglish" />
+      <item index="2" class="java.lang.String" itemvalue="Python.affineCipher" />
+      <item index="3" class="java.lang.String" itemvalue="Python.affineKeyTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.affineHacker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.affineKeyTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.affineCipher" />
-        <item index="2" class="java.lang.String" itemvalue="Python.transpositionHacker" />
-        <item index="3" class="java.lang.String" itemvalue="Python.detectEnglish" />
-        <item index="4" class="java.lang.String" itemvalue="Python.genericTranspositionFileCipher" />
+        <item index="0" class="java.lang.String" itemvalue="Python.affineHacker" />
+        <item index="1" class="java.lang.String" itemvalue="Python.affineKeyTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.affineCipher" />
+        <item index="3" class="java.lang.String" itemvalue="Python.transpositionHacker" />
+        <item index="4" class="java.lang.String" itemvalue="Python.detectEnglish" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523207491925</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="affineKeyTest.py">
+      <created>1523209168424</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1523209168424</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -584,7 +603,7 @@
     <frame x="75" y="16" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31742424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32362458" sideWeight="0.5060606" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32200646" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
@@ -973,9 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="781" lean-forward="false" selection-start-line="7" selection-start-column="781" selection-end-line="7" selection-end-column="781" />
-          <folding>
-            <element signature="e#32#66#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,15 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,16 +1012,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="81" column="19" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="19" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HackingAffine/affineHacker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>

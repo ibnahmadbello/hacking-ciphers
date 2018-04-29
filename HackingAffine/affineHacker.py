@@ -1,6 +1,9 @@
 # Affine Cipher Hacker
 
-import AffineCiphers.affineCipher, DetectEnglish.detectEnglish, AffineCiphers.cryptomath
+import AffineCiphers.affineCipher
+import DetectEnglish.detectEnglish
+import DetectEnglish
+import AffineCiphers.cryptomath
 
 SILENT_MODE = False
 
