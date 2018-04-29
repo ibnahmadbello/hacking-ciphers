@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="affineKeyTest.py">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HackingAffine/dictionary.txt" />
+    <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackingAffine/affineHacker.py" afterPath="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,41 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="affineCipher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AffineCiphers/affineCipher.py">
+      <file leaf-file-name="simpleSubCipher.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="affineKeyTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AffineCiphers/affineKeyTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="affineHacker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HackingAffine/affineHacker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detectEnglish.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,6 +64,7 @@
         <option value="$PROJECT_DIR$/AffineCiphers/affineCipher.py" />
         <option value="$PROJECT_DIR$/AffineCiphers/affineKeyTest.py" />
         <option value="$PROJECT_DIR$/HackingAffine/affineHacker.py" />
+        <option value="$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py" />
       </list>
     </option>
   </component>
@@ -587,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523209168424</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="SimpleSubstitutionCipher">
+      <created>1525037509612</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1525037509617</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -647,7 +624,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="genericCaesarCipher.py" />
     <MESSAGE value="made everything generic by using a prompt" />
     <MESSAGE value="New Directory: HackingCaesar" />
     <MESSAGE value="caesarHacker.py" />
@@ -672,20 +648,14 @@
     <MESSAGE value="cryptomath.py implemented GCD and findModInverse" />
     <MESSAGE value="affineCipher.py" />
     <MESSAGE value="affineKeyTest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="affineKeyTest.py" />
+    <MESSAGE value="SimpleSubstitutionCipher" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimpleSubstitutionCipher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TranspositionCipher/transpositionFileCipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TranspositionCipher/transpositionDecrypt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1028,8 +998,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DetectEnglish/detectEnglish.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="331">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
