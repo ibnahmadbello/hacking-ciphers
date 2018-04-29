@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b14d2ec-5b69-4fae-825f-2d0a60963fb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py" afterPath="$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +17,11 @@
       <file leaf-file-name="simpleSubCipher.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="331">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <element signature="e#30#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.affineHacker">
+  <component name="RunManager" selected="Python.simpleSubCipher">
     <configuration name="affineCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,19 +182,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="detectEnglish" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simpleSubCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DetectEnglish" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SimpleSubstitutionCipher" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hacking_ciphers" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DetectEnglish/detectEnglish.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,18 +218,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.transpositionHacker" />
-      <item index="1" class="java.lang.String" itemvalue="Python.detectEnglish" />
-      <item index="2" class="java.lang.String" itemvalue="Python.affineCipher" />
-      <item index="3" class="java.lang.String" itemvalue="Python.affineKeyTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.affineHacker" />
+      <item index="1" class="java.lang.String" itemvalue="Python.affineCipher" />
+      <item index="2" class="java.lang.String" itemvalue="Python.affineKeyTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.affineHacker" />
+      <item index="4" class="java.lang.String" itemvalue="Python.simpleSubCipher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.affineHacker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.affineKeyTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.affineCipher" />
-        <item index="3" class="java.lang.String" itemvalue="Python.transpositionHacker" />
-        <item index="4" class="java.lang.String" itemvalue="Python.detectEnglish" />
+        <item index="0" class="java.lang.String" itemvalue="Python.simpleSubCipher" />
+        <item index="1" class="java.lang.String" itemvalue="Python.affineHacker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.affineKeyTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.affineCipher" />
+        <item index="4" class="java.lang.String" itemvalue="Python.transpositionHacker" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525037509617</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="simpleSubCipher.py">
+      <created>1525037834094</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1525037834094</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -624,7 +633,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made everything generic by using a prompt" />
     <MESSAGE value="New Directory: HackingCaesar" />
     <MESSAGE value="caesarHacker.py" />
     <MESSAGE value="genericCaesarHacker.py" />
@@ -649,7 +657,8 @@
     <MESSAGE value="affineCipher.py" />
     <MESSAGE value="affineKeyTest.py" />
     <MESSAGE value="SimpleSubstitutionCipher" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleSubstitutionCipher" />
+    <MESSAGE value="simpleSubCipher.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="simpleSubCipher.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1006,9 +1015,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SimpleSubstitutionCipher/simpleSubCipher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="331">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
